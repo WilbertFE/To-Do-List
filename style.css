@@ -1,0 +1,105 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    width:40%;
+    margin:30px auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding:5px;
+}
+
+div.header {
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center; 
+    padding:10px;
+    flex-wrap: wrap;
+}
+
+.header .form .input {
+    box-sizing: border-box;
+    padding:3px;
+}
+
+.header .form .input:focus {
+    outline:none;
+    border:2px solid rgb(129, 129, 245);
+}
+
+.header .form .button {
+    padding:5px;
+    background-color: rgb(99, 147, 243);
+    border:none;
+    border-radius:3px;
+    color:#fff;
+}
+
+.list ul {
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.list ul li {
+    margin:5px;
+    display:flex;
+    position:relative;
+}
+
+.list ul li span {
+    margin-left: 5px;
+}
+
+.list ul li button {
+    position:absolute;
+    right:0;
+    background-color: rgb(235, 84, 84);
+    color:white;
+}
+
+.keterangan {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    color:#fff;
+}
+
+/* media query  */
+
+/* ukuran tablet */
+
+@media screen and (max-width:768px){
+    .container {
+        width:80%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .form {
+        margin-top:5px;
+    }
+}
+
+
+/* kelas toggle */
+
+.coret {
+    text-decoration:line-through;
+}
+
+
+
+
+
+
+
